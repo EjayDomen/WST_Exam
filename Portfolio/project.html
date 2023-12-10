@@ -464,13 +464,21 @@ body{
     margin: 0;
     padding-bottom: 60px; /* Adjust this value to match the height of your footer */
     position: relative;
-    min-height: 415vh;
+    min-height: 418vh;
     display: flex;
     flex-direction: column;
 }
 
 section {
     margin-bottom: 40px;
+}
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20px); 
+    }
 }
 
 img {
